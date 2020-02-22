@@ -1,1 +1,1 @@
-console.log('require module activated');
+console.log('render module activated');

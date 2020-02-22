@@ -35,14 +35,14 @@ function appMain() {
     	win.hide();
         event.preventDefault();
     });
- 
+
     win.loadURL(url.format({
     	pathname: path.join(__dirname, 'view_modules/index.html'),
     	protocol: 'file:',
     	slashes: true
     }));
 
-    //win.webContents.openDevTools();
+    win.webContents.openDevTools();
   
   var user_prefs_file = path.join(__dirname, 'user_prefs/user_status.txt');
 	fs.readFile(user_prefs_file, "utf8", function(err, data) {

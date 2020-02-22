@@ -227,7 +227,7 @@ $(document).ready(function() {
     
     var keys_codes = [];
 	add_bind_config_clear.click(function() {
-		//add_bind_name.val('');
+		add_bind_name.val('');
 		add_bind_config.val('');
 		add_bind_config.prop('disabled', false);
 		keys_codes = [];
